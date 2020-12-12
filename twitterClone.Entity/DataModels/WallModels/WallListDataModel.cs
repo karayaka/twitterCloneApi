@@ -14,6 +14,10 @@ namespace twitterClone.Entity.DataModels.WallModels
 
         public string UserImage { get; set; }
 
+        public string UserName { get; set; }
+
+        public string UserSurName { get; set; }
+
         public string PostImage { get; set; }
 
         public int CommnetCount { get; set; }

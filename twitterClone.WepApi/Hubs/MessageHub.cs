@@ -11,7 +11,7 @@ using twitterClone.Entity.Interfaces;
 
 namespace twitterClone.WepApi.Hubs
 {
-    [Authorize]
+    //[Authorize]
     public class MessageHub:Hub
     {
         private IUserConnectionRepository UserConnectionRepository;

@@ -44,6 +44,8 @@ namespace twitterClone.Entity.Bussenes
                 DisLikeCount = s.LikeDislikes.Count(t => t.ObjectStatus == ObjectStatus.NonDeleted && t.LikeDislikeType == LikeDislikeType.Dislike),
                 LikeCount = s.LikeDislikes.Count(t => t.ObjectStatus == ObjectStatus.NonDeleted && t.LikeDislikeType == LikeDislikeType.Like),
                 UserImage = s.User.UserImage,
+                UserName= s.User.Name,
+                UserSurName= s.User.Surname,
                 PostImage = s.PostImage,
                 ID = s.ID,
                 Title = s.PostTitle,
